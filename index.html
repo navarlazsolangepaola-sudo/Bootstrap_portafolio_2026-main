@@ -91,26 +91,60 @@
             <div class="line"></div>
           </div>
         </div>
-        <div class="container d-flex gap-6">
-          <section class="card" style="max-width: 320px">
+        <!--cards-->
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10 justify-items-center">
+          <section  type="button" class="card" style="max-width: 320px" data-bs-toggle="dialog" data-bs-target="#lemonDialogo">
             <img src="./img/lemon-pie.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h4 class="card-title text-center">Lemon Pie</h4>
             </div>
           </section>
+        
+<dialog class="dialog" id="lemonDialogo" aria-labelledby="lemonDialogoLabel" aria-describedby="lemonDialogoDesc">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Lemon Pie</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <img src="./img/lemon-pie.jpeg" class="img-fluid card-img-top" alt="..." />
+
+    <p>This is a native dialog element. It uses the browser’s built-in modal behavior for accessibility and focus management.</p>
+  </div>
+ <a type="button" class="btn-outline theme-primary" href="http://www.google.com.ar" target="_blank">Visitar Sitio</a>
+ 
+</dialog>
           <section class="card" style="max-width: 320px">
-            <img src="./img/lemon-pie.jpeg" class="card-img-top" alt="..." />
+            <img src="./img/CVBatman.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h4 class="card-title text-center">Lemon Pie</h4>
+              <h4 class="card-title text-center">Batman</h4>
             </div>
           </section>
           <section class="card" style="max-width: 320px">
-            <img src="./img/lemon-pie.jpeg" class="card-img-top" alt="..." />
+            <img src="./img/super.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h4 class="card-title text-center">Lemon Pie</h4>
+              <h4 class="card-title text-center">Súpers</h4>
+            </div>
+          </section>
+            <section class="card" style="max-width: 320px">
+            <img src="./img/petshop.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title text-center">PetShop</h4>
+            </div>
+          </section>
+            <section class="card" style="max-width: 320px">
+            <img src="./img/piza.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title text-center">Pizza</h4>
+            </div>
+          </section>
+            <section class="card" style="max-width: 320px">
+            <img src="./img/gameshop.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title text-center">GameShop</h4>
             </div>
           </section>
         </div>
+        
       </section>
       <section id="sobre-mi">Sobre Mi</section>
       <section id="contacto">Contacto</section>
