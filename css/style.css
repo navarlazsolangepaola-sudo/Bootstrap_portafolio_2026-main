@@ -1,0 +1,10 @@
+main .avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.line {
+    width: 100px;
+    background-color: #e0dfdf;
+    height: 2px;
+}
